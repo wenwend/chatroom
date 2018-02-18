@@ -1,0 +1,22 @@
+########################
+# STEP1: set up the server side first
+#  1: run python server.py 20002
+#  2: take a server name till less than 10 char
+#  3: wait for client call.
+#  4: press '\quit' to close the chat in your chat turn
+
+////////////////////////
+//  STEP 2:set up the client side -- client.c
+// NOTE: hardcored the server port number inside the code as static variable, change the port number if you start the server with different port.
+
+// 1: gcc -o client client.c
+// 2: client flip1.engr.oregonstate.edu 20002
+// 3: take a client name till less than 10 char
+// 4: client must talk first in the chatroom
+// 5: press '\quit' to close the chat in your chat turn
+
+other notes:
+1: python 2.7
+2: tested in  flip1.engr.oregonstate.edu 
+3: tested in port 20001 and 20002. sometimes it will show message that port number is taken. If you start server with different port number, have to hardcode the port number in the client.c code so you can run it.
+
